@@ -1,0 +1,237 @@
+  /* Estilo do main */
+  .mainTreinamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+  }
+  
+  /* Estilo do Título: Treinamento em Robótica Educacional com Arduino */
+  .treinamentoTitulo {
+    grid-column: 1 / 3;
+    background-color: var(--cor-paletaSecundaria02);
+    border-radius: 0 5px 5px 0;
+    padding: 0 1rem 0.5rem 0;
+  }
+  
+  .treinamentoTitulo h1,
+  .treinamentoTitulo p {
+    text-align: end;
+    margin-right: 0;
+    color: var(--corTexto-eOutros-fundoColorido);
+    margin: 0 0.5rem 0 0;
+  }
+  
+  /* Estilo da imagem */
+  .treinamentoImg {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 2rem 0;
+  }
+  
+  .treinamentoImg img {border-radius: 10px;}
+  
+  /* Estilo do texto */
+  .treinamentoTexto {
+    grid-column: 2;
+    grid-row: 3;
+    border: 2px solid var(--cor-paletaSecundaria02);
+    box-shadow: 2px 2px 10px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .treinamentoTexto h1, .treinamentoTexto h3, .treinamentoTexto hr, .treinamentoTexto p{margin: 0 5rem 0 5rem; color: var(--cor-paletaPrimaria01);}
+
+  .treinamentoTexto p {
+    text-align: justify;
+  }
+  
+  /* Estilo da Seção: Formulário */
+  .sectionForm {
+    display: grid;
+    grid-template-columns: 0.72fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    margin-left:10rem;
+  }
+  
+  /* Estilo do Título: Quer levar a educação robótica para a sala de aula? */
+  .tituloForm {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    background-color: var(--cor-paletaSecundaria01);
+    border-radius: 5px 0 0 5px;
+    padding: 0.5rem 0 1rem 1rem;
+  }
+  
+  .tituloForm h1,
+  .tituloForm p {
+    margin-left: 0;
+    color: var(--corTexto-eOutros-fundoColorido);
+  }
+  
+  /* Estilo do formulário */
+  .formTreinamento {
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px solid var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    margin: 1.5rem 0;
+   
+  }
+  
+  .formTreinamento h2 {
+    margin: 2rem 0 0.5rem 0;
+    padding: 0 4rem;
+  }
+  
+  .formTreinamento h2,
+  .formTreinamento p {
+    text-align: center;
+    color: var(--cor-paletaPrimaria01);
+    
+  }
+
+  .formTreinamento p {
+    margin: 0 4rem 0 4rem;
+
+  }
+  
+  .formDados label {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0 5px 8.5rem;
+    color: var(--cor-paletaPrimaria01);
+  }
+  
+  .formDados input {
+    border: 2px solid var(--cor-paletaSecundaria02);
+    border-radius: 30px;
+    padding: 5px;
+    width: 380px;
+  }
+  
+  .forms {
+    text-align: center;
+  }
+  
+  .forms .buttonEnviarForm {
+    text-align: left;
+    margin-left: 7.7rem;
+  }
+  
+  .buttonEnviarForm button {
+    background-color: var(--cor-paletaSecundaria03);
+    color: var(--corTexto-eOutros-fundoColorido);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .formTreinamento hr {
+    border: 1px solid var(--cor-paletaPrimaria01);
+    width: 24rem;
+    margin: 2rem 0 -1rem 8rem;
+  }
+  
+  .textoForm p {
+    text-align: center;
+    color: var(--cor-paletaPrimaria01);
+    margin: 1rem;
+  }
+
+  .buttonAgendeWhats {
+    text-decoration: none; 
+  }
+  
+  .buttonAgendeWhats i {
+    border: 2px solid var(--cor-whatsApp);
+    color: var(--cor-whatsApp);
+    font-family: 'Euclid Circular A';
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    margin: 0 0 2.5rem 10rem;
+    font-style: normal; 
+  }
+  
+
+  .buttonAgendeWhats i:hover {
+    color: var(--corTexto-eOutros-fundoColorido);
+    background-color: var(--cor-whatsApp);
+  }
+
+
+  @media screen and (max-width: 768px){
+    /* Estilo do main */
+    .mainTreinamento {
+      display: grid;
+      grid-template-columns: 0.1fr 1fr 0.1fr;
+      grid-template-rows: 0.1fr 0.1fr 0.1fr;
+      max-width: 100%;
+    }
+    
+    /* Estilo do Título: Treinamento em Robótica Educacional com Arduino */
+    .treinamentoTitulo {grid-column: 1 / 3; padding: 0.5rem;}
+    
+    .treinamentoTitulo h1{font-size: 25px;}
+    
+    /* Estilo da imagem */
+    .treinamentoImg img {width: 100%;}
+
+    /* Estilo do texto */
+    .treinamentoTexto {padding: 2rem 0;}
+    
+    .treinamentoTexto h1, .treinamentoTexto h3, .treinamentoTexto hr, .treinamentoTexto p{margin: 0 2.5rem 0 2.5rem;}
+
+    
+    /* Estilo da Seção: Formulário */
+    .sectionForm {
+      display: grid;
+      grid-template-columns: 0.1fr 1fr 0.1fr;
+      grid-template-rows: 0.1fr 1fr;
+      margin-left: 0rem;
+      max-width: 100%;
+      
+    }
+    
+    /* Estilo do Título: Quer levar a educação robótica para a sala de aula? */
+    .tituloForm {grid-column: 2 / 5; padding: 0.5rem 0 1rem 1rem;}
+    
+    .tituloForm h1{font-size: 22px;}
+    
+    /* Estilo do formulário */
+    .formTreinamento h2 {
+      margin: 2rem 1rem 0.5rem 1rem;
+      padding: 0;
+    }
+    
+    .formTreinamento h2,
+    .formTreinamento p {
+      font-size: 18px;
+    }
+
+    .formTreinamento p {margin: 0 1rem;}
+
+    .formDados label {margin: 1rem 0 5px 2.5rem;}
+    
+    .formDados input {
+      width: 360px;
+      margin: 0 1rem;
+    }
+    
+    .forms .buttonEnviarForm {margin-left: 2.5rem;}
+    
+    .buttonEnviarForm button {cursor: none;}
+    
+    .formTreinamento hr {
+      width: 15rem;
+      margin: 2.5rem 0 -1rem 5rem;
+    }
+    
+    .textoForm p {margin: 0.5rem;}
+
+    .buttonAgendeWhats i {margin: 0 2rem;}
+
+  }

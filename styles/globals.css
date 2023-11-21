@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+*{
+    font-family: 'Euclid Circular A', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --cor-paletaPrimaria01: #212F53;
+    --cor-paletaPrimaria02:  #54AAFB;
+    --cor-paletaSecundaria01: #374BB7;
+    --cor-paletaSecundaria02: #FFAE1E;
+    --cor-paletaSecundaria03:  #DC233A;
+    --corTexto-eOutros-fundoColorido: #ffffff;
+    --cor-whatsApp: #25d366;
+    --cor-instagram01: #E4405F;
+    --cor-instagram02: #405DE6;
+}
+p, a, button, input{font-size: 18px;}
+
+p{color: var(--cor-paletaPrimaria01);}
+
+
+@media screen and (min-width: 541px) and (max-width: 1280px){
+    body, main, footer {max-width: 110vh; overflow-x: hidden;}
+}
+
+@media screen and (min-width: 1px) and (max-width: 540){
+    body, main, footer, header {max-width: 150vh; overflow-x: hidden;}
+}

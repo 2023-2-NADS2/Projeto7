@@ -1,0 +1,184 @@
+/* Texto Fale Conosco */
+.mainLocation h1{
+  background-color: var(--cor-paletaSecundaria02);
+  margin-left: 0;
+  text-align: end;
+  padding-right: 1rem;
+  border-radius: 0 5px 5px 0;
+  width: 64%;
+  margin: 1rem 0 1rem;
+  color: #fff;
+}
+
+/* Telefone e Botão WhatsApp */
+.whatsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 340px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.whatsContent {
+  text-align: left;
+}
+
+.buttonAgendeWhats {text-decoration: none;}
+  
+  
+.buttonAgendeWhats i {
+  border: 2px solid var(--cor-whatsApp);
+  color: var(--cor-whatsApp);
+  font-family: 'Euclid Circular A';
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+  margin: 0 0 2.5rem 1rem;
+  font-style: normal;
+}
+
+.buttonAgendeWhats i:hover {
+  color: var(--corTexto-eOutros-fundoColorido);
+  background-color: var(--cor-whatsApp);
+}
+
+.numeroWhats {
+  margin-bottom: 20px; /* Adiciona espaço inferior ao número, se necessário */
+  margin-left: 20px;
+}
+
+
+/* Formulario entrarmos em contato */
+
+.contatoForm {
+  max-width: 27%;
+  margin: 20px auto; /* Adiciona margem inferior para separar do título */
+  text-align: left;
+  padding: 20px;
+  border: 2px solid #FFAE1E;
+  border-radius: 10px;
+}
+
+.contatoForm h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contatoForm label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contatoForm input[type="text"],
+.contatoForm input[type="email"],
+.contatoForm input[type="tel"] {
+  width: 85%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #FFAE1E;
+  border-radius: 20px;
+}
+
+.contatoForm p {
+  margin-top: 20px;
+}
+
+/* Forma de pagamento */
+.contatoForm, .form-pagamento {
+  display:flex;
+  flex-direction:column; /* Alinhar os elementos lado a lado */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.check:checked + label{
+  color: #FFAE1E;
+  background-color: #FFAE1E;
+}
+
+.contatoForm input[type="checkbox"] {
+  margin-top:5px;
+  height: 13px;
+  margin-right: 2px;
+}
+
+.contatoForm button {
+  width: 120px;
+  padding: 10px 20px;
+  background-color: #DC233A;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.contatoForm label[for="mensagem"] {
+  margin-top: 15px; /* Aumenta a margem entre o campo anterior e o campo "Mensagem" */
+}
+
+.contatoForm input[type="text"][id="mensagem"] {
+  height: 140px; /* Ajusta a altura do campo "Mensagem" conforme necessário */
+  line-height: normal; /* Define a altura da linha como normal para garantir que o cursor comece no topo */
+  vertical-align: top; /* Define o alinhamento vertical para o topo */
+}
+
+@media screen and (max-width: 768px) {
+.contentContainer {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.leftContent{width: 75%; margin: 0 0 1.5rem 5.5rem;}
+
+.rightContent{width: 80%; margin-left: 2rem;}
+
+.depoimentos p{font-size: 20px; margin: 0 2rem;}
+
+.imagensDepoimento {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+}
+  
+.imagensDepoimento img {
+    margin: 0.5rem 0; 
+    max-width: 100%;
+    padding-left: 0;
+}
+
+.contatoForm {
+  margin-left: 15px;
+  padding: 30px 5px 0 5px;
+  width: 100%; 
+  max-width: 430px; 
+  margin-left: auto;
+  margin-right: auto
+}
+
+.contatoForm p {padding: 0 1.1rem;}
+
+.botaoEnviar {margin-left: 1.5rem;}
+
+.contatoForm hr {
+  margin: 20px 0;
+  width: 300px;
+  margin-left: 70px;
+  color: var(--cor-paletaPrimaria01);
+}
+
+.whatsContainer {
+  margin-left: -2rem;
+  margin-right: left;
+  width: 240px;
+  color: var(--cor-paletaPrimaria01);
+  text-decoration: none;
+}
+
+}
+

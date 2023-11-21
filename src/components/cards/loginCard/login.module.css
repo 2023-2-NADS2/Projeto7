@@ -1,0 +1,11 @@
+.card {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--cor-paletaPrimaria01)
+}
+
+.title {
+  text-align: center;
+}

@@ -1,0 +1,263 @@
+/* Estilo da página curso */
+.container-curso{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 0.6fr;
+}
+
+/* Estilo do título: Curso de Iniciação à Robótica para Crianças */
+.tituloCurso{
+    grid-column: 3 / 5; 
+    background-color: var(--cor-paletaSecundaria01); 
+    border-radius: 5px 0 0 5px; 
+    margin: 0 0 2rem 29.5rem;
+}
+
+.tituloCurso h1{
+    text-align: left; 
+    padding: 0.5rem; 
+    color: var(--corTexto-eOutros-fundoColorido);
+    font-size: 26px;
+}
+
+/* Estilo da imagem e Informações */
+.cursoSection{display: grid; grid-template-columns: 0.5fr 1fr 0.5fr; grid-column: 2 /3;}
+
+.imagemCrianca{grid-column: 2;}
+
+.imagemCrianca img{width: 500px; position: relative;}
+
+.cursoInfo{
+    background-color: var(--cor-paletaSecundaria03); 
+    width: 25rem;
+    height: 8rem; 
+    padding: 5rem 5rem 3rem 10rem; 
+    border-radius: 10px;
+    margin: -12rem 0 0 10rem;
+    grid-column: 2;
+}
+
+.cursoInfo p{margin-left: 14rem; color: var(--corTexto-eOutros-fundoColorido); width: 100%;}
+
+/* Estilo da Descrição do curso */
+.descricaoCurso{
+    grid-column: 2 / 3;
+    border-radius: 10px;
+    border: 1px solid var(--cor-paletaSecundaria01);
+    box-shadow: 3px 5px 10px 0px var(--cor-paletaSecundaria01);
+    padding: 2rem;
+    margin: 2rem 0 0 5rem;
+}
+
+.descricaoCurso p{text-align: justify;}
+
+/* Estilo da Seção 2: Adolescentes */
+.cursoSection2{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+.tituloCurso2{
+    grid-column: 1 / 4; 
+    background-color: var(--cor-paletaSecundaria01);
+    border-radius: 0 5px 5px 0; 
+    margin: 4rem 0 2rem 0;
+}
+
+.tituloCurso2 h1{
+    text-align: end; 
+    padding: 0.5rem; 
+    color: var(--corTexto-eOutros-fundoColorido);
+    font-size: 26px;
+}
+
+/* Estilo da imagem e Informações */
+.cursoAdolescente{display: grid; grid-template-columns: 0.5fr 1fr 1fr; grid-column: 3 / 4;}
+
+.imagemAdolescente {grid-column: 3; position: relative;}
+
+.imagemAdolescente img{width: 350px; height: auto;}
+
+.cursoInfo2{
+    background-color: var(--cor-paletaSecundaria03); 
+    width: 25rem;
+    height: 8rem; 
+    padding: 5rem 5rem 3rem 10rem; 
+    border-radius: 10px;
+    margin: 12rem 0 0 -12rem;
+    grid-column: 3;
+    position:absolute;
+}
+
+.cursoInfo2 p{margin-left: -18.5rem; color: var(--corTexto-eOutros-fundoColorido); width: 100%; text-align: right;}
+
+/* Estilo da Descrição do curso: adolescente */
+.descricaoCurso2{
+    grid-column: 2 / 4;
+    border-radius: 10px;
+    border: 1px solid var(--cor-paletaSecundaria01);
+    box-shadow: 3px 5px 10px 0px var(--cor-paletaSecundaria01);
+    padding: 2rem;
+    margin: 3rem 1.5rem 4rem -22rem;
+}
+
+.descricaoCurso2 p{text-align: justify;}
+
+
+/* Estilo da Seção do Formulário */
+.cursoSection3{display: grid; grid-template-columns: 1fr 0.8fr 1fr;}
+
+.curso3{
+    grid-column: 1 / 3;
+    background-color: var(--cor-paletaSecundaria02);
+    border-radius: 0 5px 5px 0; 
+    margin: 0 0 2rem 0;
+}
+
+.curso3 h1{
+    text-align: end; 
+    padding: 0.5rem; 
+    color: var(--corTexto-eOutros-fundoColorido);
+    font-size: 26px;
+}
+
+
+/* Estilo do Formulário */
+.formularioCurso{grid-column: 2;}
+
+.contatoForm {
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.contatoForm h3 {margin: 1rem 0; color: var(--cor-paletaPrimaria01);}
+
+.contatoForm label, .contatoForm p {
+    display: block;
+    margin-top: 10px;
+    margin-left: 2.5rem;
+    text-align: left;
+    color: var(--cor-paletaPrimaria01);
+}
+
+.contatoForm input[type="text"],
+.contatoForm input[type="email"],
+.contatoForm input[type="tel"] {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--cor-paletaSecundaria02);
+    border-radius: 20px;
+}
+
+.contatoForm p {margin-top: 20px;}
+
+/* Forma de pagamento */
+.contatoForm .formPagamento {
+    display:flex;
+    flex-direction:column; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.check:checked + label{
+    color: var(--cor-paletaSecundaria02);
+    background-color: var(--cor-paletaSecundaria02);
+}
+
+.contatoForm input[type="checkbox"] {
+    margin-top:5px;
+    height: 13px;
+    margin-right: 2px;
+}
+
+.contatoForm button {
+    background-color: var(--cor-paletaSecundaria03);
+    color: var(--corTexto-eOutros-fundoColorido);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 0 1.5rem -20rem;
+}
+
+
+/* Media Queries - responsivo */
+@media screen and (max-width: 768px){
+    /* Estilo da página curso */
+    .containerCurso{display: grid; grid-template-columns: 0.1fr 1fr 0.1fr;}
+
+    /* Estilo do título: Curso de Iniciação à Robótica para Crianças */
+    .tituloCurso{grid-column: 2 / 4; margin: 0 0 2rem 1rem;}
+
+    .tituloCurso h1{padding: 0.5rem; font-size: 21px;}
+
+    /* Estilo da imagem e Informações */
+    .cursoSection{display: flex; flex-wrap: wrap;}
+
+    .imagemCrianca{margin: 0 0 8rem 1rem;}
+
+    .imagemCrianca img{width: 300px; margin:0 0 -11rem 4.5rem;}
+
+    .cursoInfo{
+        width: 20rem;
+        height: auto; 
+        padding: 3rem 0 2rem 0; 
+        margin: 1rem;
+    }
+
+    .cursoInfo p{margin-left: 5rem;}
+
+    /* Estilo da Descrição do curso */
+    .descricaoCurso{margin: 1rem 0 0 1rem;}
+
+    /* Estilo da Seção 2: Adolescentes */
+    .cursoSection2{display:grid; grid-template-columns: 0.1fr 1fr 1fr 0.1fr;}
+
+    .tituloCurso2{margin: 3rem 0 2rem 0;}
+
+    .tituloCurso2 h1{padding: 0.5rem 1rem; font-size: 22px;}
+
+    /* Estilo da imagem e Informações */
+    .cursoAdolescente{display: grid; grid-template-columns: 0.5fr 1fr 1fr;}
+
+    .imagemAdolescente{grid-column: 3; position: relative;}
+
+    .imagemAdolescente img{width: 250px; height: auto; margin-right: 3rem;}
+
+    .cursoInfo2{ 
+        width: 10rem;
+        height: 8rem; 
+        padding: 7rem 4rem 1rem 8rem; 
+        margin: 13rem 2rem 0 -4rem;
+    }
+
+    .cursoInfo2 p{margin-left: -4rem; text-align: left; width: 15rem;}
+
+    /* Estilo da Descrição do curso: adolescente */
+    .descricaoCurso2{margin: 12rem 1rem 4rem -5rem;}
+
+    /* Estilo da Seção do Formulário */
+    .cursoSection3{display: grid; grid-template-columns: 0.1fr 1.5fr 0.1fr;}
+
+    .curso3 h1{padding: 0.5rem 1rem; font-size: 22px;}
+
+    /* Estilo do Formulário */
+    .contatoForm label, .contato-form p {margin: 10px 0 0 32px;}
+
+    .contatoForm label{margin-top: 1rem;}
+
+    .contatoForm p {margin-top: 20px;}
+
+    /* Forma de pagamento */
+    .contatoForm button {cursor: none; margin: 0 0 1.5rem -13rem;}
+
+
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1600px){
+    .cursoInfo2{margin: 12rem 0 0 -18rem;}
+
+    .contatoForm button {margin: 0 0 1.5rem -13rem;}
+    
+}

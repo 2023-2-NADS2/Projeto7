@@ -1,0 +1,30 @@
+.background {
+  background-color: var(--cor-paletaPrimaria01);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--cor-paletaSecundaria01);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-image: url('../public/imagens/img-bg.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: 100%;
+  background-position: center center; /* Posição no centro */
+  background-repeat: no-repeat; /* Evitar repetição da imagem */
+  opacity: 1; /* Opacidade da imagem, varia de 0 a 1 (totalmente transparente a totalmente opaca) */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.conta{
+  color: var(--cor-paletaPrimaria01);;
+  text-decoration: none;
+}

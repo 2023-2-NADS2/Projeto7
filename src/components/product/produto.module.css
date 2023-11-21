@@ -1,0 +1,643 @@
+/* Estilo: Oficinas Maker com Robótica em Fascículos */
+.sectionMassinha{display: grid; grid-template-columns: 0.5fr 1fr 0.5fr; grid-template-rows: 0.1fr 1fr;}
+
+.volume1 {
+    grid-column: 2/4;
+    grid-row: 1;
+    background-color: var(--cor-paletaSecundaria01);
+    color: var(--corTexto-eOutros-fundoColorido);
+    border-radius: 5px 0 0 5px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.volume-1 h1{font-size: 26px; padding-left: 1rem;}
+
+/* Estilo da Seção: Massinha Condutora parte 1 */
+.containerVolum {
+    background-color: var(--corTexto-eOutros-fundoColorido);
+    display: flex;
+    border: 2px solid var(--cor-paletaSecundaria02);
+    box-shadow: 2px 2px 10px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    grid-column: 2; 
+    grid-row: 2;  
+}
+
+.imagemP1 img {
+    width: 250px;
+    height: auto;
+    padding: 2.5rem 3rem;
+}
+
+
+.textoP1 {padding-right: 2.5rem; text-align: justify; color: var(--cor-paletaPrimaria01);}
+
+.botaoP1 a {
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cor-paletaSecundaria02);
+    padding: 0.8rem 2rem;
+    margin-left: 0;  
+    cursor: pointer;
+    color: var(--corTexto-eOutros-fundoColorido);
+    text-decoration: none;
+}
+
+.botaoP1 a:hover {
+    border: 2px solid var(--cor-paletaSecundaria02); 
+    color: var(--cor-paletaSecundaria02); 
+    background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+
+/* Estilo da Seção: texto com perguntas */
+.contentContainer {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 0.7fr;
+    background-color: var(--cor-paletaSecundaria02);
+}
+
+.textoP2 {color: var(--corTexto-eOutros-fundoColorido); grid-column: 2;}
+
+.textoP2 p {margin: 2rem 0; text-align: justify;}
+
+
+/* Estilo da Seção: 01 Oficina Passo a passo */
+.section2 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.1fr 1fr;
+    margin: 2rem 0 0 0;
+}
+
+.containerVolum {align-items: center;}
+
+
+.textoP3 {padding: 2rem 0 2rem 3rem; color: var(--cor-paletaPrimaria01);}
+
+.textoP3 p {text-align: justify;}
+
+.botaoP2{margin: 0 0 3rem 3rem;}
+
+.botaoP2 a {
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cor-paletaSecundaria02);
+    padding: 0.8rem 2rem;
+    margin-left: 0;  
+    cursor: pointer;
+    color: var(--corTexto-eOutros-fundoColorido);
+    text-decoration: none;
+}
+
+.botaoP2 a:hover {
+    border: 2px solid var(--cor-paletaSecundaria02); 
+    color: var(--cor-paletaSecundaria02); 
+    background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+.imagemP2 img {
+    width: 400px;
+    height: auto;
+    padding: 0 1rem 0 1rem;
+}
+
+
+/* Estilo da Seção: Com o volume 1 do Fascículo, você vai.. */
+.section3 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin: 0;  
+}
+
+.containerTextoImagem {
+    grid-column: 2;
+    border: 1px solid var(--cor-paletaSecundaria02);
+    box-shadow: 0px 3px 6px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+}
+
+.textoP4 {padding: 2rem 3rem; color: var(--cor-paletaPrimaria01);}
+
+
+.item {display: flex; align-items: center;}
+
+#item3 img{margin-bottom: 1rem}
+
+.item p {text-align: justify;}
+
+#item5 p{font-size: 20px; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+
+/* ícone check verde */
+.imgIconGreen {
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem; 
+}
+
+
+/* Estilo da Seção: Porque crio materiais para outros professores */
+.containerAutora {
+    margin-top: 2rem;
+    background-color: var(--cor-paletaSecundaria01);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.8fr 1fr 0.5fr;
+    align-items: center;
+}
+
+/* Estilizar a imagem do autor */
+.imagemAutora{grid-column: 2;}
+
+.imagemAutora img{border: 2px solid var(--cor-paletaSecundaria02); border-radius: 10px; width: 400px;}
+
+.textoP5{grid-column: 3;}
+
+
+/* Estilo do título e texto */
+.textoP5 h2, .textoP5 p{color: var(--corTexto-eOutros-fundoColorido); text-align: justify;}
+
+
+/* Estilo da Seção: Atividades realizadas */
+.atividadesRealizadas{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.2fr 1fr;
+}
+
+.tituloAtividades {
+    grid-column: 2;
+    grid-row: 1;
+    color: var(--cor-paletaSecundaria02);
+    margin-top: 2rem;
+    border: 1px solid var(--cor-paletaSecundaria02);
+    box-shadow: 0px 1px 3px 2px var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    padding: 1rem 0;
+    text-align: center; 
+}
+
+.textoP6 {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid var(--cor-paletaSecundaria02);
+    box-shadow: 0px 3px 6px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;    
+    padding: 2rem 0 0.5rem 2.2rem;
+}
+
+.textoP6 p {
+    color: var(--cor-paletaPrimaria01);
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+}
+
+.textoP6 p::before {
+    content: "";
+    position: absolute;
+    top: 31%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: var(--cor-paletaSecundaria02);
+    opacity: 1;
+    z-index: -1;
+}
+
+
+/* Estilo da da Seção: Frase com as aspas */
+.textoP7 {
+    color: var(--cor-paletaPrimaria01); 
+    max-width: 100%;
+}
+
+.textoP7 h2 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 22px;
+    position: relative;
+}
+
+.textoP7 p {
+    max-width: 690px;
+    text-align: justify;
+    margin: auto;
+}
+
+.textoP7 img {
+    position: absolute;
+    width: 75px; 
+    height: auto;
+    margin: 1.5rem 0 0 -0.5rem;
+    left: 40rem;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Estilo da Seção este guia é para você que: */
+.sectionGuia {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    max-width: 100%;
+    margin-top: 4rem;
+}
+
+.containerGuia {
+    display: flex;
+    align-items: center;
+    max-width: 100%; 
+    border: 1px solid var(--cor-paletaSecundaria02);
+    box-shadow: 0px 3px 6px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px; 
+    grid-column: 2;
+}
+
+.item h2, .item p{color: var(--cor-paletaPrimaria01);}
+
+.textoP8{margin: 0 0 0 4rem;}
+
+.imgMassinha img{width: 300px; margin: 0 2rem 0 0;}
+
+
+/* Estilo da Seção: Experiencia - adquira o meu agora */
+.sectionExperiencia{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin-top: 2rem;
+}
+
+.containerExperiencia {
+    border: 1px solid var(--cor-paletaSecundaria02);
+    box-shadow: 0px 3px 6px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;    
+    display: flex;
+    align-items: center;
+    grid-column: 2;
+}
+
+.imagemP9 img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin: 3rem 0 3rem 3rem;
+}
+
+.textoBotaoContainer {text-align: justify; margin: 0 3rem;}
+
+.textoBotaoContainer p{color: var(--cor-paletaPrimaria01);}
+
+.botaoP9 a {
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cor-paletaSecundaria02);
+    padding: 0.8rem 2rem;
+    margin-left: 0;  
+    cursor: pointer;
+    color: var(--corTexto-eOutros-fundoColorido);
+    text-decoration: none;
+}
+
+.botaoP9 a:hover {
+    border: 2px solid var(--cor-paletaSecundaria02); 
+    color: var(--cor-paletaSecundaria02); 
+    background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+/* Estilo da Seção: Depoimentos */
+.opniaoFasciculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: var(--cor-paletaSecundaria02);
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+}
+
+.opniaoFasciculo h1{color: var(--cor-paletaPrimaria01);}
+
+.imagensDep{
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.imagensDep img{width: 350px;}
+
+
+/* Estilo da seção: Fasciculo Digital */
+.sectionFasciculo1{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin: 2rem 0;
+}
+
+.sectionDigital1 {
+    background-color: var(--corTexto-eOutros-fundoColorido);
+    display: flex;
+    border: 2px solid var(--cor-paletaSecundaria02);
+    box-shadow: 2px 2px 10px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    grid-column: 2; 
+}
+
+.conteinDigital1{margin: 2rem 6rem;}
+
+.conteinDigital1 h1{color: var(--cor-paletaPrimaria01); margin-left: 0;}
+
+.conteinDigital1 p{margin-left: 0;}
+
+
+.check1{display: flex;}
+
+.check1 img{width: 35px; height: 35px; margin-bottom: 1rem;}
+
+.check1 p{margin-bottom: 1rem; margin-left: 1rem;}
+
+.imgDigital1 img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo do botão */
+.buttonFasciculo1{
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cor-paletaSecundaria02);
+    padding: 0.8rem 2rem;
+    margin-left: 0;  
+    cursor: pointer;
+    color: var(--corTexto-eOutros-fundoColorido);
+    text-decoration: none;
+}
+
+.buttonFasciculo1:hover{
+    border: 2px solid var(--cor-paletaSecundaria02); 
+    color: var(--cor-paletaSecundaria02); 
+    background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+/* Perguntas frequentes */
+.perguntas {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    padding: 20px; 
+}
+
+.textoP12{grid-column: 2;}
+
+.textoP12 h2{color: var(--cor-paletaPrimaria01);}
+
+
+/* Utiliza a classe .pergunta para estilizar todas as perguntas */
+.pergunta01, .pergunta02, .pergunta03, .pergunta04, .pergunta05 {
+    border: 2px solid var(--cor-paletaSecundaria02);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--cor-paletaPrimaria01);
+}
+
+.pergunta01 input, .pergunta02 input, .pergunta03 input, .pergunta04 input, .pergunta05 input {cursor: pointer;}
+
+.pergunta01 label, .pergunta02 label, .pergunta03 label, .pergunta04 label, .pergunta05 label {font-weight: 520;}
+
+.resposta {
+    display: none;
+    padding: 15px 0;
+    margin-top: 10px;
+    color: var(--cor-paletaPrimaria01);
+}
+
+/* Estilo para quando a pergunta estiver marcada (resposta expandida) */
+input:checked + label + .resposta {
+    display: block;
+}
+
+/* Adiciona estilos para o texto dentro das perguntas */
+.pergunta img{
+    width: 40px;
+    justify-content: right;
+    float: right;
+}
+
+/* Seção precisa de ajuda? */
+.ajuda {
+    margin:auto;
+    max-width: 46%;
+    border: 1px solid var(--cor-paletaSecundaria02);
+    box-shadow: 0px 3px 6px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;    
+    padding: 2rem 2rem 3rem 2rem;   
+    margin-top: 2rem;
+}
+
+.ajuda p{
+    padding: 10px; 
+    color: var(--cor-paletaPrimaria01);
+}
+
+.textoP13 {margin-bottom: 20px; margin-left: 1.5rem;}
+
+.textoP13 h2{
+    color: var(--cor-paletaPrimaria01);
+    margin-left: 10px;
+}
+
+.botaoP4 a {
+    border: 2px solid var(--cor-whatsApp);
+    color: var(--cor-whatsApp);
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+.botaoP4 a:hover {
+    border: none;
+    background-color: var(--cor-whatsApp);
+    color: var(--corTexto-eOutros-fundoColorido);
+}
+
+/* Estilo da seção: Fale conosco */
+.sectionDuvida1{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin-bottom: 2rem;
+}
+.duvidaFasciculo1{
+    background-color: var(--corTexto-eOutros-fundoColorido);
+    border: 2px solid var(--cor-paletaSecundaria02);
+    box-shadow: 2px 2px 10px 0px var(--cor-paletaSecundaria02);
+    border-radius: 10px;
+    grid-column: 2;
+    padding: 2rem;
+}
+
+.duvidaFasciculo1 h1, .duvidaFasciculo1 p{margin-left: 2rem; color: var(--cor-paletaPrimaria01);}
+
+.duvidaFasciculo1 h1{color: var(--cor-paletaPrimaria01);}
+
+.emailContact{color: var(--cor-paletaPrimaria01);}
+
+.emailContact:hover{color: var(--cor-paletaSecundaria02);}
+
+
+/* Media Queries - responsivo */
+@media screen and (max-width: 768px){
+    /* Estilo: Oficinas Maker com Robótica em Fascículos */
+    .section-massinha{display: grid; grid-template-columns: 0.1fr 1fr 0.1fr; grid-template-rows: 0.1fr 1fr;}
+
+    .volume-1 h1{font-size: 22px;}
+
+    /* Estilo da Seção: Massinha Condutora parte 1 */
+    .containerVolum{display: flex; flex-wrap: wrap; padding: 2.5rem 0 3rem 2.5rem}
+
+    .textoP1 h2{text-align: left;}
+
+    .imagemP1 img {padding: 0 6.5rem 2rem 1rem; width: 200px; margin-left: 2.5rem;}
+
+    /* Estilo da Seção: texto com perguntas */
+    .contentContainer {display: grid; grid-template-columns: 0.3fr 1fr 0.3fr;}
+
+    /* Estilo da Seção: 01 Oficina Passo a passo */
+    .section2 {display: grid; grid-template-columns: 0.1fr 1fr 0.1fr; margin-bottom: -1.3rem; width: 100%;}
+
+    .containerVolum {display: grid; grid-template-rows: 0.1fr 0.5fr;}
+
+    .textoP3 {padding: 0; grid-row: 2; margin: -3rem 2.5rem 0 0}
+
+    .botaoP2{margin: 2.5rem 0 1rem 0;}
+
+    .imagemP2{grid-row: 1; margin: -4rem 5px 0 -10px;}
+
+    .imagemP2 img{width: 335px;}
+
+    
+    /* Estilo da Seção: Com o volume 1 do Fascículo, você vai.. */
+    .section3 {display: grid; grid-template-columns: 0fr 1fr 0fr;  margin-bottom: 2.5rem; width: 100%;}
+
+    #item3 img{margin-bottom: 2rem}
+
+
+    /* Estilo da Seção: Porque crio materiais para outros professores */
+    .containerAutora {
+        padding: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Estilizar a imagem do autor */
+    .imagemAutora{margin-bottom: 1rem;}
+
+    .imagemAutora img{width: 350px;}
+
+
+    /* Estilo da Seção: Atividades realizadas */
+    .atividadesRealizadas{
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+    }
+
+    .tituloAtividades {padding: 1rem 2rem;}
+
+    .textoP6 {
+        display: block;
+        padding: 1rem 0 0.4rem 3rem;
+    }
+
+    .textoP6 p {text-align: justify; padding: 20px 24px 20px 0; width: 100%;}
+
+    .textoP6 p::before {top: 24%; left: 7%;}
+
+    /* Estilo da da Seção: Frase com as aspas */
+    .textoP7 h2 {font-size: 20px; width: 260px; margin-left: 5rem;}
+
+    .textoP7 p {max-width: 300px;}
+
+    .textoP7 img {left: 6rem;}
+
+    /* Estilo da Seção este guia é para você que: */
+    .sectionGuia {display: grid; grid-template-columns: 0.1fr 1fr 0.1fr;}
+
+    .containerGuia {display: grid; grid-template-rows: 0.1fr 0.1fr;}
+
+    .textoP8{margin: 0 2.5rem 2.5rem 2.5rem; grid-row: 2;}
+
+    .imgMassinha img{margin: 0 2rem 0 2.5rem; grid-row: 1; width: 250px;}
+
+
+    /* Estilo da Seção: Experiencia - adquira o meu agora */
+    .sectionExperiencia{display: grid; grid-template-columns: 0.1fr 1fr 0.1fr;}
+
+    .containerExperiencia {display: flex; flex-wrap: wrap;}
+
+    .imagemP9 img {margin: 3rem 0 2.5rem 2rem; width: 280px;}
+
+    .botaoP9 {margin-bottom: 3.2rem;}
+
+
+    /* Estilo da Seção: Depoimentos */
+    .opniaoFasciculo h2{font-size: 22px; text-align: center;}
+
+    .imagensDep{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imagensDep img{width: 340px;}
+
+
+    /* Estilo da seção: Fasciculo Digital */
+    .sectionFasciculo1{display: grid; grid-template-columns: 0.1fr 1fr 0.1fr; }
+
+    .sectionDigital1 {display: grid; grid-template-rows: 1fr 0.9fr; padding-bottom: 3rem;}
+
+    .conteinDigital1{margin: 0 3rem; grid-row: 2;}
+
+    .imgDigital1{grid-row: 1; margin-left: 1.5rem;}
+
+    .imgDigital1 img{width: 300px;}
+
+    /* Estilo do botão */
+    .buttonFasciculo1{margin-left: -1rem;}
+
+    /* Perguntas frequentes */
+    .perguntas {display: grid; grid-template-columns: 0fr 1fr 0fr; padding: 8px;}
+
+
+    /* Utiliza a classe .pergunta para estilizar todas as perguntas */
+    .pergunta01 input, .pergunta02 input, .pergunta03 input, .pergunta04 input, .pergunta05 input {cursor: none;}
+
+    
+    /* Seção precisa de ajuda? */
+    .ajuda {max-width: 100%; padding: 2rem 1rem;}
+
+    /* Estilo da seção: Fale conosco */
+    .sectionDuvida1{display: grid; grid-template-columns: 0.2fr 1fr 0.1fr;}
+
+
+    .duvidaFasciculo1{padding: 2rem 2.5rem;}
+    
+    .duvidaFasciculo1 h1, .duvidaFasciculo1 p{margin-left: 1rem;}
+
+
+}

@@ -1,0 +1,156 @@
+/* Estilo do Footer  */
+.footer{background-color: var(--cor-paletaSecundaria01);}
+
+.containerFooter{
+    display: grid;
+    grid-template-columns: 0.6fr 0.5fr 1fr;
+    padding: 2rem 1rem;
+}
+
+.footer p{color: var(--corTexto-eOutros-fundoColorido)}
+
+/* Estilo do footer conteúdo 1: Logo, parágrafo e redes sociais*/
+.contein1{grid-column: 1;}
+
+.contein1 img{width: 130px; height: auto; cursor: pointer;}
+
+.contein1 p{margin: 0 1.2rem;}
+
+.instagram, .whatsapp {font-size: 2rem; color:var(--corTexto-eOutros-fundoColorido); margin-left: 1.2rem;}
+
+.whatsapp{
+    background-color: var(--cor-whatsApp); 
+    padding: 0.3rem 0.4rem; 
+    border-radius: 0.5rem;
+}
+
+.instagram{
+    background: linear-gradient(135deg, var(--cor-instagram01), var(--cor-instagram02)); 
+    padding: 0.3rem 0.4rem; 
+    border-radius: 0.5rem;
+}
+
+/* Estilo do footer conteúdo 2: Menu e links úteis*/
+.contein2{grid-column: 2;}
+
+.contein2 p{margin-left: 0;}
+
+.menuItemsFooter li, .menuItemsFooter a{text-decoration: none; list-style: none; color: var(--corTexto-eOutros-fundoColorido); padding: 3px 0;}
+
+.menuItemsFooter a:hover{color: var(--cor-paletaPrimaria02)}
+
+.input:focus {outline: 5px solid transparent; box-shadow: 0 0 2px 4px var(--cor-paletaPrimaria02);} 
+  
+
+/* Estilo do footer conteúdo 3: Inscreva-se */
+.contein3{grid-column: 3;}
+
+.contein3 p{margin-left: 0;}
+
+.contein3input{
+    padding: 0.5rem 1rem; 
+    border-radius: 30px 0px 0px 30px;
+    width: 13.5rem;
+    border: 1px solid var(--corTexto-eOutros-fundoColorido);
+    margin-right: -3px;
+}
+
+.contein3button {
+    padding: 0.5rem 1.5rem; 
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid var(--corTexto-eOutros-fundoColorido);
+    background-color: var(--cor-paletaSecundaria02);
+    color: var(--corTexto-eOutros-fundoColorido);
+    margin-left: -3px;
+    cursor: pointer;
+}
+
+/* Estilo do footer bottom */
+.contein4 p{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 1rem;
+}
+
+.contein4 hr{width: 99.9%; margin-left: 0;}
+
+
+/* Media queries - responsividade do Footer - Smartphone (mobile first)*/
+@media screen and (max-width: 480px) {   
+    /* Estilo do Footer */
+    .containerFooter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1.2fr 0.5fr;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilo do conteúdo 1: Logo e grid*/
+    .contein1 img {padding-top: 0; margin-top:0;}
+
+    .contein1 {
+        grid-column: 1;
+        grid-row: 1;
+        padding-top:0;
+    }
+
+    /* Estilo dos Conteúdos 1 ao 3 */
+    .contein1, .contein2, .contein3 {padding: 1.4rem 0; align-items: center;}
+
+    .contein2, .contein3 {margin-left: 1rem;}
+
+    .contein2 {grid-column: 1; grid-row: 2;}
+
+    .contein3 {grid-column: 1; grid-row: 3;}
+
+    /* Estilo do conteúdo 3: Input e botão */
+    .conteininput {padding: 0.5rem 1rem; width: 10rem;}
+
+    .contein3button {padding: 0.5rem 1.2rem;}
+
+    /* Estilo do footer bottom */
+    .contein4 p {text-align: center;}
+
+    .contein4 hr{max-width: 100%;}
+
+    
+}
+
+/* Media queries - responsividade do Footer - Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilo do Footer */
+    .containerFooter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1.2fr 0.5fr;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+    /* Estilo do conteúdo 1: Logo e grid*/
+    .contein1 img {padding-top: 0; margin-top:0;}
+
+    .contein1 {grid-column: 1; grid-row: 1; padding-top: 0;}
+
+    /* Estilo dos Conteúdos 1 ao 3 */
+    .contein1, .contein2, .contein3 {padding: 1.4rem 0; align-items: center;}
+
+    .contein2, .contein3 {margin-left: 1rem;}
+
+    .contein2 {grid-column: 1; grid-row: 2;}
+
+    .contein3 {grid-column: 1; grid-row: 3;}
+
+    /* Estilo do conteúdo 3: Input e botão */
+    .contein3input {padding: 0.5rem 1rem; width: 18rem;}
+
+    .contein3button {padding: 0.5rem 1.2rem;}
+
+    /* Estilo do footer bottom */
+    .contein4 p {text-align: left; margin-left: 0;}
+
+    .contein4 hr{max-width: 100%;}
+
+}

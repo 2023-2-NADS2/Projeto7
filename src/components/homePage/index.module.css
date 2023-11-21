@@ -1,0 +1,407 @@
+/* Estilo do Main */
+.containerMain{
+  background-color: var(--cor-paletaSecundaria01);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.mainContent{align-items: center;}
+
+.mainContent p{ width: 400px;}
+
+.mainContent h1{width: auto;}
+
+.mainContent p, .mainContent h1{
+  color: var(--corTexto-eOutros-fundoColorido);
+  margin: 0 7rem;
+  line-height: 1.5;
+}
+
+.buttonSaibaMais{
+  border-radius: 30px;
+  border: none;
+  background-color: var(--cor-paletaSecundaria02);
+  padding: 0.8rem 2rem;
+  color: var(--corTexto-eOutros-fundoColorido);
+  margin: 0 7rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.buttonSaibaMais:hover{
+  border: 2px solid var(--cor-paletaSecundaria02); 
+  color: var(--cor-paletaSecundaria02); 
+  background-color: transparent;
+}
+
+.conteinImg img{
+  max-width: 100%;
+  height: auto;
+  clip-path: polygon(9% 0, 100% 0, 100% 100%, 1% 100%); 
+}
+
+/* Estilo da Seção: Somos  */
+.sectionSomos h2{
+  padding: 10px;
+  text-align: center;
+  color: var(--cor-paletaPrimaria01);
+  margin-top: 4rem;
+}
+
+.sectionSomos hr{
+  width: 20%;
+  margin: 0 auto;
+  border-top: 2px solid var(--cor-paletaPrimaria02);
+}
+
+.imgSelos{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8.5rem;
+}
+
+.imgSelos img{
+  width: 16%;
+  height: auto;
+  padding: 2rem;
+}
+
+/* Estilo da seção: "Aulas presenciais para crianças e adolescentes" */
+.containerSection{
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 1fr 0.3fr;
+  position: relative;
+  max-width: 90%;
+  height: auto;
+}
+
+.sectionContein1{
+  background-color: var(--cor-paletaSecundaria02);
+  max-width: 360px; 
+  border-radius: 10px;  
+  grid-column: 2;
+}
+
+.sectionContein1 img{
+  width: 400px;
+  height: 250;
+  border-radius: 15px;
+  margin: -5rem 0 5rem 5rem;
+}
+
+.conteinCurso{grid-column: 3;}
+.conteinCurso h1, .conteinCurso h3, .conteinCurso p{
+  color: var(--cor-paletaPrimaria01);
+  margin-left: 0;
+  max-width: 500px;
+}
+
+.conteinCurso h3, .conteinCurso p{margin-left: 0;}
+
+.conteinCurso hr{
+  width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid var(--cor-paletaPrimaria02);
+  margin-left: 0;
+}
+
+.buttonSaibaCurso{ 
+  border-radius: 30px;
+  border: none;
+  background-color: var(--cor-paletaSecundaria02);
+  padding: 0.8rem 2rem;
+  margin-left: 0;  
+  cursor: pointer;
+  color: var(--corTexto-eOutros-fundoColorido);
+  text-decoration: none;
+}
+
+.buttonSaibaCurso:hover{
+  border: 2px solid var(--cor-paletaSecundaria02); 
+  color: var(--cor-paletaSecundaria02); 
+  background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+/* Estilo da faixa */
+.faixa{
+  background-color: var(--cor-paletaPrimaria02);
+  transform: skewY(-10deg);
+  margin: 5rem -0.5rem 10rem -1rem;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.faixa p{
+  color: var(--corTexto-eOutros-fundoColorido);
+  word-spacing: 11rem;
+  text-align: center;
+  height: auto;
+}
+
+/* Estilo da seção: "Treinamento para professores" */
+.containerSection3{
+  display: grid;
+  grid-template-columns: 0.5fr 0.8fr 1fr 0.1fr;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.conteinTreinamento{
+  color: var(--cor-paletaPrimaria01);
+  grid-column: 2;
+}
+
+.conteinTreinamento hr{
+  width: 55%;
+  margin: 0 auto;
+  border-top: 2px solid var(--cor-paletaPrimaria02);
+  margin-left: 5rem;
+}
+
+.conteinTreinamento h1, .conteinTreinamento h3, .conteinTreinamento hr, .conteinTreinamento p{
+  color: var(--cor-paletaPrimaria01);
+  margin: 0 -6rem 0 5rem;
+  max-width: 500px;
+}
+
+.buttonSaibaTreinamento{ 
+  border-radius: 30px;
+  border: none;
+  background-color: var(--cor-paletaSecundaria03);
+  padding: 0.8rem 2rem;
+  margin-left: 5rem; 
+  cursor: pointer; 
+  color: var(--corTexto-eOutros-fundoColorido);
+  text-decoration: none;
+}
+
+.buttonSaibaTreinamento:hover{
+  border: 2px solid var(--cor-paletaSecundaria03); 
+  color: var(--cor-paletaSecundaria03); 
+  background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+.sectionImg2{
+  background-color: var(--cor-paletaSecundaria03);
+  width: 350px;
+  border-radius: 10px;
+  grid-column: 3;
+}
+
+.sectionImg2 img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: -7rem 0 5rem 5rem;
+}
+
+/* Estilo da seção : Oficina */
+.containerSection4{margin: 3rem 0; max-width: 100%; max-width: auto;}
+
+.oficinaContein1{margin: 5rem 0;}
+
+.oficinaContein1 img{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  margin: -6.3rem 0;
+}
+
+.oficinaContein2 img{width: 100%; height: auto;}
+
+.textoOficina{
+  background-color: var(--corTexto-eOutros-fundoColorido);
+  width: 400px;
+  border-radius: 20px;
+  padding: 2rem 0 3rem 2rem;
+  align-items: center;
+  position: absolute;
+  margin: 8rem 2rem;
+}
+
+.textoOficina h4{color: var(--cor-paletaPrimaria01);}
+
+.textoOficina p{margin:0; text-align: justify; padding-right: 2rem;}
+
+.buttonSaibaOficina{ 
+  border-radius: 30px;
+  border: none;
+  background-color: var(--cor-paletaSecundaria01);
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;  
+  cursor: pointer;
+  color: var(--corTexto-eOutros-fundoColorido);
+  text-decoration: none;
+}
+
+.buttonSaibaOficina:hover{
+  border: 2px solid var(--cor-paletaSecundaria01); 
+  color: var(--cor-paletaSecundaria01); 
+  background-color: var(--corTexto-eOutros-fundoColorido);
+}
+
+
+/* Media Queries - responsivo - máximo 768px*/
+@media screen and (max-width: 768px){
+  .main1{overflow-x: hidden;}
+  /* Estilo do Main */
+  .main{
+      background-image: url('/imagens/img-crianca2.jpg');
+      background-size:contain;
+      background-repeat: no-repeat; 
+      width: 100%;
+      height: 50%;
+      
+  }
+
+  .containerMain{
+      width: 100%;      
+      height: 600px;
+      clip-path:polygon(0 30%, 160% 40%, 100% 120%, 0 140%); 
+      background-color: var(--cor-paletaSecundaria01);                
+  }
+
+  .mainContent{margin: 13rem 0  0 6rem;}
+
+  .mainContent p, .mainContent h1{margin-left: 0;}
+
+  .mainContent p{
+    max-width: 220px;
+  }
+
+  .mainContent h1{
+    max-width: 150px;
+  }
+
+  .conteinImg img{display: none;}
+
+  .buttonSaibaMais{margin-left: 0; grid-column: 2; grid-row: 3;}
+
+
+  /* Estilo da seção: Somos */
+  .imgSelos{
+      max-width: 100%;
+      display:grid;
+      grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+      grid-template-rows: 0.6fr;
+      margin: 1rem 0 7rem 0;
+      padding: 0;
+      
+  }
+
+  .imgSelos img{width: 100%; padding: 0;}
+
+  .imgSelo1, .imgSelo2, .imgSelo3, .imgSelo3, .imgSelo4{grid-row: 1;}
+
+  .imgSelo1, .imgSelo3{margin-top: 6rem;}
+
+  .imgSelo1{grid-column: 1;}
+
+  .imgSelo2{grid-column: 2;}
+
+  .img-selo3{grid-column: 3;}
+
+  .img-selo4{grid-column: 4;}
+
+
+  /* Estilo da seção: cursos presenciais para crianças e adolescentes */
+  .containerSection{
+      max-width: 100%; 
+      display: grid; 
+      grid-template-columns: 0.1fr 1fr 0.1fr;
+      grid-template-rows: 0.8fr 0.5fr;
+      padding:0;
+      margin:0;
+      
+  }
+
+  .sectionContein1{
+      width: 300px; 
+      height: 230px; 
+      grid-column: 2; 
+      grid-row: 1; 
+      margin: 0 1rem;
+  }
+
+  .sectionContein1 img{margin: -3rem 0 0 2rem; width: 320px;}
+
+  .conteinCurso{grid-column: 2; grid-row: 2; margin: 2rem 0 0 3rem;}
+
+  .conteinCurso h1, .conteinCurso h3{text-align: left; width: 355px;}
+
+  .conteinCurso p{text-align: justify; margin-right: 4rem;}
+
+  .conteinCurso hr{width: 250px;}
+
+
+  /* Estilo da seção: Faixa azul */
+  .faixa{margin: 3rem -0.8rem 7rem -1rem; width: 100%;}
+  
+  .faixa p{word-spacing: 2.1rem;}
+
+
+  /* Estilo da seção: Treinamento */
+  .containerSection3{
+      max-width: 100%; 
+      display: grid; 
+      grid-template-columns: 0.1fr 1fr 0.1fr; 
+      grid-template-rows: 1fr 0.1fr; 
+      padding:0; 
+      margin:0;
+      
+  }
+
+  .conteinTreinamento{grid-column: 2; grid-row: 2; margin: 0 0 2rem -3rem;}
+
+  .conteinTreinamento h1 {text-align: left; max-width: 200px;}
+
+  .conteinTreinamento p {text-align: justify; width: 280px;}
+
+  .conteinTreinamento hr {width: 63%;}
+
+  .sectionImg2{grid-column: 2; grid-row: 1; margin-left: 4rem; width: 220px;}
+
+  .sectionImg2 img{margin: -5rem 1rem 3rem 4rem;}
+
+  .containerSection4{max-width: 100%;}
+
+  /* Estilo da seção: Oficina */
+  .textoOficina{width: 300px;  margin: 6rem 1rem;}
+
+  .textoOficina p{margin:0; text-align: justify; padding-right: 2rem;}
+  
+  .oficinaContein1 img{width: 200px; height: auto; margin: -4.28rem 0;}
+
+  .oficinaContein2 img{width: 100%; height: 400px; object-fit: cover; object-position: 50%;}
+
+}
+
+
+/* Media Queries - responsivo - máximo 1550px */
+@media screen and (min-width: 769px) and (max-width: 1550px){
+
+  /* Estilo da seção: cursos presenciais para crianças e adolescentes */
+  .containerSection{
+      display: grid; 
+      grid-template-columns: 0.2fr 0.7fr 0.3fr 1fr 0.2fr;
+  }
+
+  .sectionContein1{grid-column: 2;}
+
+  .conteinCurso{grid-column: 4;}
+
+  .conteinCurso hr{width: 410px;}
+
+  /* Estilo da seção: Faixa azul */
+  .faixa p{word-spacing: 8rem;}
+
+  /* Estilo da seção: Treinamento */
+  .conteinTreinamento hr{width: 59%;}
+}
+
+.conteinTreinamento h1, .conteinTreinamento h3, .conteinTreinamento hr, .conteinTreinamento p{max-width: 400px;}
