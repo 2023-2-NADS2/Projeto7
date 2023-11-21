@@ -7,11 +7,11 @@
 # Projeto DrawEdu
 
 ## Integrantes:
- <a href="https://www.linkedin.com/in/amanda-ferreira-nunes-silva-b9a502254/">Amanda Ferreira Nunes Silva</a> 
- <a href="https://www.linkedin.com/in/katomayumi/">Fernanda Mayumi Kuba Kato</a>
- <a href="https://www.linkedin.com/in/gustavomiyahara/">Gustavo Minoru Miyahara</a>
- <a href="https://www.linkedin.com/in/jeancostasilva/">Jean Costa Silva</a>
- <a href="https://www.linkedin.com/in/rafael-chagas-32b445278/">Rafael Rodrigues de Chagas</a>
+ <a href="https://www.linkedin.com/in/amanda-ferreira-nunes-silva-b9a502254/">Amanda Ferreira Nunes Silva</a>, 
+ <a href="https://www.linkedin.com/in/katomayumi/">Fernanda Mayumi Kuba Kato</a>,
+ <a href="https://www.linkedin.com/in/gustavomiyahara/">Gustavo Minoru Miyahara</a>,
+ <a href="https://www.linkedin.com/in/jeancostasilva/">Jean Costa Silva</a>,
+ <a href="https://www.linkedin.com/in/rafael-chagas-32b445278/">Rafael Rodrigues de Chagas</a>,
  <a href="https://www.linkedin.com/in/ricardo-maia-chingotti-4228a1212/">Ricardo Maia Chingotti</a>
 
 ## Professores Orientadores:
