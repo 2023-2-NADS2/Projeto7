@@ -20,10 +20,10 @@
  <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a> <br>
 
    
-### Objetivos: 
+### Objetivos:
 
-<p> 
- Projeto Voltado para os prilares 5° (Igualdade de gênero) e 9° (Industria, inovação e infraestrutura) ODS ONU. Nosso projeto focou nesses dois pilares pelo empreendedorismo feminino, e a força que ele tem junto a inovação tecnológica que a Fundadora Amanda Marques trouxe a algumas intituições de ensino. 
+<p>
+Projeto Voltado para os prilares 5° (Igualdade de gênero) e 9° (Industria, inovação e infraestrutura) ODS ONU. Nosso projeto focou nesses dois pilares pelo empreendedorismo feminino, e a força que ele tem junto a inovação tecnológica que a Fundadora Amanda Marques trouxe a algumas intituições de ensino.
 </p>
 
 ### Resumo do Projeto: <br>
@@ -60,7 +60,6 @@
 - **Mysql**: Criação Banco de Dados, armazenar e gerenciar os dados, banco de dados relacional.
 - **Jwt Token**: Criação de Token de acesso, autenticação e troca segura de informação entre partes.
 - **Express**: Criação de rota, facilita tarefa de autenticação, manipulação de ssessão e compreenssão de dado.
-
 ## 🛠 Estrutura de pastas
 
 Config:
