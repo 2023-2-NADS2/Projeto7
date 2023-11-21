@@ -20,8 +20,7 @@
 
 ## Descrição
 
-<br>Nosso Projeto "DrawEdu" é um site criado pensando no pilar "Educação de Qualidade" número quatro entre os 17 objetivos ONU.
-O DrawEdu faz uma ponte entre os alunos e os professores de experiência de aprendizado, oferecendo treinamento de tecnologia a instituições de ensino e professores. Esse projeto oferece cursos e materias para educadores que trazem para dentro da sala de aula a educação tecnológica.<br>
+<br>Nosso Projeto "DrawEdu" é um site criado pensando na educação de qualidade e inovação tecnológica. Com esse pensamento, desenvolvemos ele através dos pilares 5 e 9 da ODS ONU, sendo eles 5- Igualdade de gênero; onde a criadora do DrawEdu, Amanda Marques, sozinha empreendeu e iniciou a criação de aulas de tecnologia e materiais de apoio que hoje é disponibilizado para um público de diversas idades. 9- Industria, inovação e infraestrutura; O DrawEdu vem inovando com as aulas de tecnológia que diversos educadores estão trazendo para as salas de aula, assim inovando e melhorando o ensino e aprendizado dos alunos, fazendo uma ponte entre os alunos e os professores de experiência de aprendizado.<br>
 
 <br>Para educadores de qualquer nível, os cursos oferecidos de robótica educacional com Arduino são ideais, mesmo para iniciantes. O programa de treinamento foi pensado para ser flexível, com cursos online hospedados na plataforma Hotmart, permitindo que os professores avancem no seu próprio ritmo. Oferecemos também programas de robótica voltados para crianças e adolescentes, incluindo oficinas exclusivas sob medida para crianças, para estimular a criatividade e promover o aprendizado interativo. É nestas oficinas que as crianças descobrem um mundo onde a teoria e o entretenimento se unem, enquanto conceptualizam, fabricam e codificam os seus próprios robôs num ambiente imersivo e informativo.<br>
 
